@@ -1,0 +1,35 @@
+# Misc
+requests
+loguru
+alembic
+sqlalchemy
+alembic
+pymysql
+psycopg2-binary
+python-dotenv
+
+# In case I decide go fastapi
+fastapi
+sqlmodel
+
+# Cli
+click
+
+# API
+uvicorn
+fastapi
+
+ddtrace
+
+
+# Routes
+herepy
+
+# Telegram
+python-telegram-bot
+
+# Scrappers
+beautifulsoup4
+
+# Daft
+https://github.com/AnthonyBloomer/daftlistings/archive/master.zip
