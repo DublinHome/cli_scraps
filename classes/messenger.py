@@ -1,9 +1,12 @@
 import asyncio
-from loguru import logger
-from model.sqlmodel import TelegramMessage
-import telegram
-from telegram.constants import ParseMode
 import os
+
+import telegram
+from loguru import logger
+from telegram.constants import ParseMode
+
+from model.sqlmodel import TelegramMessage
+
 
 class Messenger:
     def __init__(self,) -> None:

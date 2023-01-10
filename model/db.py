@@ -1,6 +1,6 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, Table, Boolean
-from sqlalchemy.orm import relationship, backref
+from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, Table
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import backref, relationship
 
 Base = declarative_base()
 

@@ -25,6 +25,7 @@ cattrs==22.2.0
     # via ddtrace
 certifi==2022.12.7
     # via
+    #   here-public-transit-api
     #   httpcore
     #   httpx
     #   requests
@@ -54,6 +55,8 @@ h11==0.14.0
     # via
     #   httpcore
     #   uvicorn
+here-public-transit-api @ git+https://github.com/madpin/scg-here-public-transit-api.git@main
+    # via -r /home/madpin/code/cli_scraps///requirements.in
 herepy==3.5.8
     # via -r /home/madpin/code/cli_scraps///requirements.in
 httpcore==0.16.3
@@ -81,7 +84,7 @@ markupsafe==2.1.1
     #   mako
 numpy==1.24.1
     # via folium
-packaging==22.0
+packaging==23.0
     # via ddtrace
 protobuf==4.21.12
     # via
@@ -97,6 +100,8 @@ pymysql==1.0.2
     # via -r /home/madpin/code/cli_scraps///requirements.in
 pyrsistent==0.19.3
     # via jsonschema
+python-dateutil==2.8.2
+    # via here-public-transit-api
 python-dotenv==0.21.0
     # via -r /home/madpin/code/cli_scraps///requirements.in
 python-telegram-bot==20.0
@@ -113,6 +118,8 @@ six==1.16.0
     # via
     #   ddsketch
     #   ddtrace
+    #   here-public-transit-api
+    #   python-dateutil
 sniffio==1.3.0
     # via
     #   anyio
@@ -141,7 +148,9 @@ typing-extensions==4.4.0
     #   sqlalchemy2-stubs
     #   starlette
 urllib3==1.26.13
-    # via requests
+    # via
+    #   here-public-transit-api
+    #   requests
 uvicorn==0.20.0
     # via -r /home/madpin/code/cli_scraps///requirements.in
 xmltodict==0.13.0
