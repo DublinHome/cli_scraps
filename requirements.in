@@ -30,6 +30,8 @@ python-telegram-bot
 
 # Scrappers
 beautifulsoup4
+python-dateutil
+nums-from-string
 
 # Daft
 https://github.com/AnthonyBloomer/daftlistings/archive/master.zip

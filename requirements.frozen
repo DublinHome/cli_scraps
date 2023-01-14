@@ -45,7 +45,7 @@ envier==0.4.0
     # via ddtrace
 exceptiongroup==1.1.0
     # via cattrs
-fastapi==0.89.0
+fastapi==0.89.1
     # via -r /home/madpin/code/cli_scraps///requirements.in
 folium==0.14.0
     # via daftlistings
@@ -84,6 +84,8 @@ markupsafe==2.1.1
     #   mako
 numpy==1.24.1
     # via folium
+nums-from-string==0.1.2
+    # via -r /home/madpin/code/cli_scraps///requirements.in
 packaging==23.0
     # via ddtrace
 protobuf==4.21.12
@@ -101,7 +103,9 @@ pymysql==1.0.2
 pyrsistent==0.19.3
     # via jsonschema
 python-dateutil==2.8.2
-    # via here-public-transit-api
+    # via
+    #   -r /home/madpin/code/cli_scraps///requirements.in
+    #   here-public-transit-api
 python-dotenv==0.21.0
     # via -r /home/madpin/code/cli_scraps///requirements.in
 python-telegram-bot==20.0
@@ -147,7 +151,7 @@ typing-extensions==4.4.0
     #   pydantic
     #   sqlalchemy2-stubs
     #   starlette
-urllib3==1.26.13
+urllib3==1.26.14
     # via
     #   here-public-transit-api
     #   requests
